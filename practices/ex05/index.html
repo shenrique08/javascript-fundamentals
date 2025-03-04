@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM events</title>
+    <style>
+        div#area {
+            width: 200px;
+            height: 150px;
+            border: 1px solid rgba(31, 205, 63, 0.266);
+            box-shadow: 1px 1px 1px rgba(3, 196, 3, 0.269);
+            border-radius: 10px;
+            text-align: center;
+            background-color: aquamarine;
+            line-height: 150px;
+            font-size: larger;
+            color: darkgreen;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onmouseenter="mouseOn()" onmouseout="mouseOut()">
+        Click me
+    </div>
+
+    <script>
+        function mouseOn() {
+            var mouseOn = document.getElementById('area')
+            mouseOn.style.padding = '40px'
+            mouseOn.style.backgroundColor = 'red'
+        }
+
+        function mouseOut() {
+            var mouseOut = document.getElementById('area')
+            mouseOut.style.padding = '20px'
+            mouseOut.style.backgroundColor = 'aquamarine'
+        }
+
+    </script>
+
+
+</body>
+</html>
