@@ -1,0 +1,55 @@
+
+
+body {
+    font-size: larger;
+}
+
+
+header {
+    text-align: center;
+
+}
+
+
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.275);
+
+}
+
+
+footer {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+#photo img {
+    width: 100%;
+    max-width: 250px;
+    max-height: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#msg {
+    text-align: center;
+    margin: 10px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

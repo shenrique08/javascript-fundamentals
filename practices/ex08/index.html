@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <input type="text" name="txtNacionalidade" id="txtNacionalidade" placeholder="Insira sua nacionalidade">
+    <input type="button" value="Enter" onclick="verificarNacionalidade()">
+    <div id="result">
+
+    </div>
+
+    <script>
+
+
+        function verificarNacionalidade() {
+
+            var nacionalidade = document.querySelector('input#txtNacionalidade').value
+            nacionalidade = nacionalidade.toLocaleLowerCase()
+
+            var result = document.querySelector('div#result')
+            result.innerHTML = `Você digitou ${nacionalidade}`
+
+            if (nacionalidade == "brasileiro" || nacionalidade == "brasileira") {
+                result.innerHTML += `<br> Você nasceu no <strong>Brasil</strong>`
+            } else {
+                result.innerHTML += `<br> Você é <strong>estrangeiro</strong>!`
+            }
+
+        }
+
+    </script>
+    
+    
+</body>
+</html>
