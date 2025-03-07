@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cheking Age</h1>
+
+    </header>
+
+    <section>
+        <div>
+            <p>Year of birth:
+                <input type="number" name="age" id="age" min="1">
+            </p>
+
+            <p>Sex: 
+                <input type="radio" name="sex" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="female">
+                <label for="female">Female</label>
+            </p>
+
+            <p>
+                <input type="button" value="verify" onclick="verify()">
+
+            </p>
+            
+
+        </div>
+        <div>
+            Fill out the form to see the result!
+            <br>
+            <img id="photo" src="imagens/young.jpg" alt="photo">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p><a href="https://github.com/shenrique08" target="_blank" rel="external">github/shenrique08</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
