@@ -35,5 +35,5 @@ The primary goal of this repository is to practice and solidify understanding of
 For questions or feedback:
 
 - GitHub: [@shenrique08](https://github.com/shenrique08)
-- Email: sergio.henrique.tech@gmail.com
+- Email: sergio.henri.tech@gmail.com
 
