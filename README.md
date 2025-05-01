@@ -5,7 +5,7 @@ This repository contains a collection of JavaScript exercises and challenges des
 The exercises are inspired by:
 
 - [Curso em Vídeo - JavaScript](https://www.cursoemvideo.com/course/javascript/) by Gustavo Guanabara  
-- [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) by Jonas Schmedtmann
+- [Modern JavaScript From The Beginning 2.0 (2024)](https://www.udemy.com/course/modern-javascript-from-the-beginning/?couponCode=25BBPMXPLOYTRMT) by Brad Traversy
 
 ## 📁 Structure
 
